@@ -8,24 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		6D851ABD208B000300C6D1AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D851ABC208B000300C6D1AB /* AppDelegate.m */; };
-		6D851AC0208B000300C6D1AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D851ABF208B000300C6D1AB /* ViewController.m */; };
-		6D851AC3208B000300C6D1AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D851AC1208B000300C6D1AB /* Main.storyboard */; };
 		6D851AC5208B000400C6D1AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D851AC4208B000400C6D1AB /* Assets.xcassets */; };
 		6D851AC8208B000400C6D1AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D851AC6208B000400C6D1AB /* LaunchScreen.storyboard */; };
 		6D851ACB208B000400C6D1AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D851ACA208B000400C6D1AB /* main.m */; };
+		6D851AD7208B005600C6D1AB /* DrawerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D851AD2208B005500C6D1AB /* DrawerView.xib */; };
+		6D851AD8208B005600C6D1AB /* DrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D851AD4208B005500C6D1AB /* DrawerView.m */; };
+		6D851AD9208B005600C6D1AB /* CCKFNavDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D851AD6208B005600C6D1AB /* CCKFNavDrawer.m */; };
+		6D851ADD208B031600C6D1AB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D851ADB208B031600C6D1AB /* MainViewController.m */; };
+		6D851ADE208B031600C6D1AB /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D851ADC208B031600C6D1AB /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6D851AB8208B000300C6D1AB /* NavDrawerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavDrawerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D851ABB208B000300C6D1AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6D851ABC208B000300C6D1AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6D851ABE208B000300C6D1AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6D851ABF208B000300C6D1AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6D851AC2208B000300C6D1AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D851AC4208B000400C6D1AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D851AC7208B000400C6D1AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D851AC9208B000400C6D1AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D851ACA208B000400C6D1AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D851AD2208B005500C6D1AB /* DrawerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawerView.xib; sourceTree = "<group>"; };
+		6D851AD3208B005500C6D1AB /* DrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerView.h; sourceTree = "<group>"; };
+		6D851AD4208B005500C6D1AB /* DrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerView.m; sourceTree = "<group>"; };
+		6D851AD5208B005600C6D1AB /* CCKFNavDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCKFNavDrawer.h; sourceTree = "<group>"; };
+		6D851AD6208B005600C6D1AB /* CCKFNavDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCKFNavDrawer.m; sourceTree = "<group>"; };
+		6D851ADA208B031600C6D1AB /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6D851ADB208B031600C6D1AB /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6D851ADC208B031600C6D1AB /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,7 @@
 		6D851AAF208B000200C6D1AB = {
 			isa = PBXGroup;
 			children = (
+				6D851AD1208B003C00C6D1AB /* CCKFNavDrawer */,
 				6D851ABA208B000300C6D1AB /* NavDrawerTest */,
 				6D851AB9208B000300C6D1AB /* Products */,
 			);
@@ -60,15 +69,27 @@
 			children = (
 				6D851ABB208B000300C6D1AB /* AppDelegate.h */,
 				6D851ABC208B000300C6D1AB /* AppDelegate.m */,
-				6D851ABE208B000300C6D1AB /* ViewController.h */,
-				6D851ABF208B000300C6D1AB /* ViewController.m */,
-				6D851AC1208B000300C6D1AB /* Main.storyboard */,
 				6D851AC4208B000400C6D1AB /* Assets.xcassets */,
 				6D851AC6208B000400C6D1AB /* LaunchScreen.storyboard */,
 				6D851AC9208B000400C6D1AB /* Info.plist */,
 				6D851ACA208B000400C6D1AB /* main.m */,
+				6D851ADA208B031600C6D1AB /* MainViewController.h */,
+				6D851ADB208B031600C6D1AB /* MainViewController.m */,
+				6D851ADC208B031600C6D1AB /* MainViewController.xib */,
 			);
 			path = NavDrawerTest;
+			sourceTree = "<group>";
+		};
+		6D851AD1208B003C00C6D1AB /* CCKFNavDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				6D851AD5208B005600C6D1AB /* CCKFNavDrawer.h */,
+				6D851AD6208B005600C6D1AB /* CCKFNavDrawer.m */,
+				6D851AD3208B005500C6D1AB /* DrawerView.h */,
+				6D851AD4208B005500C6D1AB /* DrawerView.m */,
+				6D851AD2208B005500C6D1AB /* DrawerView.xib */,
+			);
+			path = CCKFNavDrawer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +149,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D851AD7208B005600C6D1AB /* DrawerView.xib in Resources */,
 				6D851AC8208B000400C6D1AB /* LaunchScreen.storyboard in Resources */,
 				6D851AC5208B000400C6D1AB /* Assets.xcassets in Resources */,
-				6D851AC3208B000300C6D1AB /* Main.storyboard in Resources */,
+				6D851ADE208B031600C6D1AB /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,23 +163,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D851AC0208B000300C6D1AB /* ViewController.m in Sources */,
 				6D851ACB208B000400C6D1AB /* main.m in Sources */,
+				6D851AD8208B005600C6D1AB /* DrawerView.m in Sources */,
 				6D851ABD208B000300C6D1AB /* AppDelegate.m in Sources */,
+				6D851ADD208B031600C6D1AB /* MainViewController.m in Sources */,
+				6D851AD9208B005600C6D1AB /* CCKFNavDrawer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6D851AC1208B000300C6D1AB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D851AC2208B000300C6D1AB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6D851AC6208B000400C6D1AB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  NavDrawerTest
 //
 //  Created by Rajesh Karmaker on 21/4/18.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+#import "CCKFNavDrawer.h"
+@interface MainViewController : UIViewController<CCKFNavDrawerDelegate>
 
 @end
-
