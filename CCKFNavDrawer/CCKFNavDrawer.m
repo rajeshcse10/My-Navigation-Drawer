@@ -81,18 +81,17 @@
     
     // load drawer view
     self.drawerView = [[[NSBundle mainBundle] loadNibNamed:@"DrawerView" owner:self options:nil] objectAtIndex:0];
-    [self.drawerView setFrame:CGRectMake(0, 0, [[UIScreen mainScreen] bounds].size.width * 0.6, [[UIScreen mainScreen] bounds].size.height)];
+    [self.drawerView setFrame:CGRectMake(0, 0, [[UIScreen mainScreen] bounds].size.width * 0.6, [[UIScreen mainScreen] bounds].size.height - self.navigationBar.frame.size.height)];
     self.meunHeight = self.drawerView.frame.size.height;
     self.menuWidth = self.drawerView.frame.size.width;
-    self.outFrame = CGRectMake(-self.menuWidth,0,self.menuWidth,self.meunHeight);
-    self.inFrame = CGRectMake (0,0,self.menuWidth,self.meunHeight);
+    self.outFrame = CGRectMake(-self.menuWidth,self.navigationBar.frame.size.height,self.menuWidth,self.meunHeight);
+    self.inFrame = CGRectMake (0,self.navigationBar.frame.size.height,self.menuWidth,self.meunHeight);
     
     // drawer shawdow and assign its gesture
     self.shawdowView = [[UIView alloc] initWithFrame:self.view.frame];
     self.shawdowView.backgroundColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.0];
     self.shawdowView.hidden = YES;
-    UITapGestureRecognizer *tapIt = [[UITapGestureRecognizer alloc] initWithTarget:self
-                                                                            action:@selector(tapOnShawdow:)];
+    UITapGestureRecognizer *tapIt = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapOnShawdow:)];
     [self.shawdowView addGestureRecognizer:tapIt];
     self.shawdowView.translatesAutoresizingMaskIntoConstraints = NO;
     [self.view addSubview:self.shawdowView];
